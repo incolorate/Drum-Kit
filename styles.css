@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.keyContainer {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2);
+    height: 100%;
+    overflow: hidden;
+}
+.key {
+    width: 60px;
+    height:80px;
+    margin-left: 20px;
+    border: 2px black solid; 
+    background-color: transparent;
+    font-family: monospace;
+    font-size:60px;
+    font-weight: bold;
+}
+
+
+.keyTr{
+    box-shadow: 3px 3px 3px purple;
+    width:70px;
+    height:85px;
+    transition: 5ms;
+}
